@@ -1,0 +1,22 @@
+.card {
+  background: var(--sf-color);
+  border: 1px solid var(--sk-color);
+  border-radius: 1.5rem;
+
+  & h3 {
+    margin-top: 1rem;
+  }
+
+  & img {
+    width: 32px;
+    height: 32px;
+
+    object-fit: contain;
+  }
+
+  & img[src*="Tela"] {
+    width: 13.44rem;
+    height: 29.09rem;
+  }
+
+}
